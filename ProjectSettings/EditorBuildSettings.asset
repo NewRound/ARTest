@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/ImageTracking.unity
+    guid: d2e63c9d5cf54824992067ba6b79b184
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: c5484efda0d487c4284d3836fdaf13df
+  - enabled: 1
+    path: Assets/Scenes/FaceTracking.unity
+    guid: 54b089f05d7d81b4da449205f5d6ed82
+  - enabled: 1
+    path: Assets/Scenes/ProjectScene.unity
+    guid: a095e0ad74b26244da3157052ca987bb
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: bdea5368ee1ad9a4698590eef462aed1, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4b2b946db7e7fe546982fc7a38e8bb77, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 32521b8c0453da5408ecf77206a1aa46, type: 2}
